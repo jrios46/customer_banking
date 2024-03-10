@@ -2,7 +2,7 @@
 # ADD YOUR CODE HERE
 from Account import Account
 
-def create_cd_account(balance, interest_rate, months):
+def create_cd_account(balance, months, interest_rate):
     """Creates a CD account, calculates interest earned, and updates the account balance.
     Args:
         balance (float): The initial CD account balance.

@@ -4,11 +4,12 @@
 from Account import Account
 
 # Define a function for the Savings Account
-def create_savings_account(balance, interest_rate, months):
+def create_savings_account(balance, months, interest_rate = 0 ):
 
     # Create an instance of the `Account` class and pass in the balance and interest parameters.
     #  Hint: You need to add the interest as a value, i.e, 0.
     # ADD YOUR CODE HERE
+
     account = Account(balance,interest_rate)
     # Calculate interest earned
      # ADD YOUR CODE HERE
